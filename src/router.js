@@ -19,14 +19,14 @@ export default new Router({
         },
         // Pages
         {
-          name: 'Timeline',
-          path: 'pages/user',
-          component: () => import('@/views/dashboard/pages/Timeline'),
+          name: 'Grafik',
+          path: 'pages/grafik',
+          component: () => import('@/views/dashboard/pages/Grafik'),
         },
         {
-          name: 'Notifications',
-          path: 'components/notifications',
-          component: () => import('@/views/dashboard/component/Notifications'),
+          name: 'Donasi',
+          path: 'pages/donasi',
+          component: () => import('@/views/dashboard/pages/Donasi'),
         },
         {
           name: 'Icons',

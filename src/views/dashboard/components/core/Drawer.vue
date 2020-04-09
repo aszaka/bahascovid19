@@ -31,7 +31,7 @@
           contain
         >
           <v-img
-            src="https://demos.creative-tim.com/vuetify-material-dashboard/favicon.ico"
+            src=""
             max-height="30"
           />
         </v-list-item-avatar>
@@ -114,12 +114,12 @@
         {
           title: 'Grafik',
           icon: 'mdi-chart-line',
-          to: '/components/typography',
+          to: '/pages/grafik',
         },
         {
           icon: 'mdi-cash-multiple',
           title: 'Donasi',
-          to: '/pages/user',
+          to: '/pages/donasi',
         },
         {
           title: 'FAQ',

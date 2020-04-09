@@ -7,13 +7,55 @@
     <v-row>
       <v-col
         cols="12"
+        md="12"
+      >
+        <base-material-card
+          color="success"
+          class="px-5 py-3"
+        >
+          <template v-slot:heading>
+            <div class="display-2 font-weight-light">
+              Selamat Datang
+            </div>
+
+            <div class="subtitle-1 font-weight-light">
+              Selamat Datang di website BahasCovid19
+            </div>
+          </template>
+          <h4 align='center'> <br> Website ini membahas segala sesuatu tentang virus Covid 19 atau yang lebih dikenal dengan corona.</h4>
+        </base-material-card>
+      </v-col>
+
+      <v-col
+        cols="12"
+        md="12"
+      >
+        <base-material-card
+          color="warning"
+          class="px-5 py-3"
+        >
+          <template v-slot:heading>
+            <div class="display-2 font-weight-light">
+              Pengertian
+            </div>
+          </template>
+          <br> <p align='justify'><b>Coronavirus </b> adalah suatu kelompok virus yang dapat menyebabkan penyakit pada hewan atau manusia. Beberapa jenis coronavirus diketahui menyebabkan infeksi saluran nafas pada manusia mulai dari batuk pilek hingga yang lebih serius seperti Middle East Respiratory Syndrome (MERS) dan Severe Acute Respiratory Syndrome (SARS). Coronavirus jenis baru yang ditemukan menyebabkan penyakit COVID-19.</p>
+          <p><b>COVID-19</b> adalah penyakit menular yang disebabkan oleh jenis coronavirus yang baru ditemukan. Ini merupakan virus baru dan penyakit yang sebelumnya tidak dikenal sebelum terjadi wabah di Wuhan, Tiongkok, bulan Desember 2019.</p>
+          <v-divider light></v-divider>
+          <br>
+          <p align='right'><i>Sumber : <a href="https://www.who.int/indonesia/news/novel-coronavirus/qa-for-public">https://www.who.int/indonesia/news/novel-coronavirus/qa-for-public</a></i></p>
+        </base-material-card>
+      </v-col>
+
+      <v-col
+        cols="12"
         sm="6"
         lg="3"
       >
         <base-material-stats-card
-          color="info"
-          icon="mdi-twitter"
-          title="Followers"
+          color="red"
+          icon="mdi-emoticon-frown-outline"
+          title="Kasus"
           value="+245"
           sub-icon="mdi-clock"
           sub-text="Just Updated"
@@ -26,9 +68,9 @@
         lg="3"
       >
         <base-material-stats-card
-          color="primary"
-          icon="mdi-poll"
-          title="Website Visits"
+          color="warning"
+          icon="mdi-emoticon-cry-outline"
+          title="Positif"
           value="75.521"
           sub-icon="mdi-tag"
           sub-text="Tracked from Google Analytics"
@@ -42,8 +84,8 @@
       >
         <base-material-stats-card
           color="success"
-          icon="mdi-store"
-          title="Revenue"
+          icon="mdi-emoticon-happy-outline"
+          title="Sembuh"
           value="$ 34,245"
           sub-icon="mdi-calendar"
           sub-text="Last 24 Hours"
@@ -56,128 +98,14 @@
         lg="3"
       >
         <base-material-stats-card
-          color="orange"
-          icon="mdi-sofa"
-          title="Bookings"
+          color="danger"
+          icon="mdi-emoticon-dead-outline"
+          title="Meninggal Dunia"
           value="184"
           sub-icon="mdi-alert"
           sub-icon-color="red"
           sub-text="Get More Space..."
         />
-      </v-col>
-
-      <v-col
-        cols="12"
-        md="6"
-      >
-        <base-material-card
-          color="warning"
-          class="px-5 py-3"
-        >
-          <template v-slot:heading>
-            <div class="display-2 font-weight-light">
-              Employees Stats
-            </div>
-
-            <div class="subtitle-1 font-weight-light">
-              New employees on 15th September, 2016
-            </div>
-          </template>
-          <v-card-text>
-            <v-data-table
-              :headers="headers"
-              :items="items"
-            />
-          </v-card-text>
-        </base-material-card>
-      </v-col>
-
-      <v-col
-        cols="12"
-        md="6"
-      >
-        <base-material-card class="px-5 py-3">
-          <template v-slot:heading>
-            <v-tabs
-              v-model="tabs"
-              background-color="transparent"
-              slider-color="white"
-            >
-              <span
-                class="subheading font-weight-light mx-3"
-                style="align-self: center"
-              >Tasks:</span>
-              <v-tab class="mr-3">
-                <v-icon class="mr-2">
-                  mdi-bug
-                </v-icon>
-                Bugs
-              </v-tab>
-              <v-tab class="mr-3">
-                <v-icon class="mr-2">
-                  mdi-code-tags
-                </v-icon>
-                Website
-              </v-tab>
-              <v-tab>
-                <v-icon class="mr-2">
-                  mdi-cloud
-                </v-icon>
-                Server
-              </v-tab>
-            </v-tabs>
-          </template>
-
-          <v-tabs-items
-            v-model="tabs"
-            class="transparent"
-          >
-            <v-tab-item
-              v-for="n in 3"
-              :key="n"
-            >
-              <v-card-text>
-                <template v-for="(task, i) in tasks[tabs]">
-                  <v-row
-                    :key="i"
-                    align="center"
-                  >
-                    <v-col cols="1">
-                      <v-list-item-action>
-                        <v-checkbox
-                          v-model="task.value"
-                          color="secondary"
-                        />
-                      </v-list-item-action>
-                    </v-col>
-
-                    <v-col cols="9">
-                      <div
-                        class="font-weight-light"
-                        v-text="task.text"
-                      />
-                    </v-col>
-
-                    <v-col
-                      cols="2"
-                      class="text-right"
-                    >
-                      <v-icon class="mx-1">
-                        mdi-pencil
-                      </v-icon>
-                      <v-icon
-                        color="error"
-                        class="mx-1"
-                      >
-                        mdi-close
-                      </v-icon>
-                    </v-col>
-                  </v-row>
-                </template>
-              </v-card-text>
-            </v-tab-item>
-          </v-tabs-items>
-        </base-material-card>
       </v-col>
     </v-row>
   </v-container>
