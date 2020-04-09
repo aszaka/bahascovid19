@@ -15,17 +15,17 @@
             max-width="400"
         >
             <v-img
-            class="white--text align-end"
+            class="black--text align-end"
             height="200px"
-            src=" "
+            src="https://static.republika.co.id/uploads/images/inpicture_slide/logo-aksi-cepat-tanggap-act-_191123203953-177.png"
             >
-            <v-card-title>Aksi Cepat Tanggap</v-card-title>
+            <v-card-title></v-card-title>
             </v-img>
 
             <v-card-subtitle class="pb-0">10 April 2020</v-card-subtitle>
 
             <v-card-text class="text--primary">
-            <div>Whitsunday Island, Whitsunday Islands</div>
+            <div>Aksi Cepat Tanggap</div>
             </v-card-text>
 
             <v-card-actions>
@@ -41,6 +41,75 @@
         </v-card>
       </v-col>
 
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-card
+            class="mx-auto"
+            max-width="400"
+        >
+            <v-img
+            class="black--text align-end"
+            height="200px"
+            src="https://1.bp.blogspot.com/-s-DzcHwODzc/XOx-_FqJUhI/AAAAAAAASQo/Y2JFgglG3WwzLan-Hrk8OAe3FWFeSZJJQCLcBGAs/s1600/Dompet%2BDhuafa.png"
+            >
+            <v-card-title></v-card-title>
+            </v-img>
+
+            <v-card-subtitle class="pb-0">10 April 2020</v-card-subtitle>
+
+            <v-card-text class="text--primary">
+            <div>Dompet Dhuafa</div>
+            </v-card-text>
+
+            <v-card-actions>
+            <v-btn
+                color="orange"
+                default
+                class="v-btn--block"
+                @click="act = true"
+            >
+                Detail
+            </v-btn>
+            </v-card-actions>
+        </v-card>
+      </v-col>
+
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-card
+            class="mx-auto"
+            max-width="400"
+        >
+            <v-img
+            class="black--text align-end"
+            height="200px"
+            src="https://1.bp.blogspot.com/-j-WXQs5jhMo/XOx-0RiLPXI/AAAAAAAASQg/xzrplS9Jyegtc97Oz2DPw3x79-WoDaJQwCLcBGAs/w1200-h630-p-k-no-nu/Rumah%2BZakat.png"
+            >
+            <v-card-title></v-card-title>
+            </v-img>
+
+            <v-card-subtitle class="pb-0">10 April 2020</v-card-subtitle>
+
+            <v-card-text class="text--primary">
+            <div>Rumah Zakat</div>
+            </v-card-text>
+
+            <v-card-actions>
+            <v-btn
+                color="orange"
+                default
+                class="v-btn--block"
+                @click="act = true"
+            >
+                Detail
+            </v-btn>
+            </v-card-actions>
+        </v-card>
+      </v-col>
     </v-row>
 
     <v-dialog

@@ -29,9 +29,9 @@ export default new Router({
           component: () => import('@/views/dashboard/pages/Donasi'),
         },
         {
-          name: 'Icons',
-          path: 'components/icons',
-          component: () => import('@/views/dashboard/component/Icons'),
+          name: 'FAQ',
+          path: 'pages/faq',
+          component: () => import('@/views/dashboard/pages/Faq'),
         },
         {
           name: 'Typography',

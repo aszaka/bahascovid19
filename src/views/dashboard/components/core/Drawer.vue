@@ -124,7 +124,7 @@
         {
           title: 'FAQ',
           icon: 'mdi-frequently-asked-questions',
-          to: '/tables/regular-tables',
+          to: '/pages/faq',
         },
         // {
         //   title: 'icons',
