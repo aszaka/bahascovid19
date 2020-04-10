@@ -25,23 +25,10 @@
       nav
     >
       <v-list-item>
-        <v-list-item-avatar
-          class="align-self-center"
-          color="white"
-          contain
-        >
           <v-img
-            src=""
-            max-height="30"
+            src="https://i0.wp.com/www.nawadwipa.co.id/wp-content/uploads/2019/09/google-new-logo-if-futura-e1569392115313.png"
+            max-height="80"
           />
-        </v-list-item-avatar>
-
-        <v-list-item-content>
-          <v-list-item-title
-            class="display-1"
-            v-text="profile.title"
-          />
-        </v-list-item-content>
       </v-list-item>
     </v-list>
 
@@ -75,16 +62,6 @@
       <!-- https://github.com/vuetifyjs/vuetify/pull/8574 -->
       <div />
     </v-list>
-
-    <template v-slot:append>
-      <base-item
-        :item="{
-          title: $t('upgrade'),
-          icon: 'mdi-package-up',
-          to: '/upgrade',
-        }"
-      />
-    </template>
   </v-navigation-drawer>
 </template>
 
@@ -112,9 +89,14 @@
           to: '/',
         },
         {
-          title: 'Grafik',
-          icon: 'mdi-chart-line',
-          to: '/pages/grafik',
+          title: 'Data Provinsi',
+          icon: 'mdi-table',
+          to: '/pages/provinsi',
+        },
+        {
+          title: 'Timeline',
+          icon: 'mdi-timeline',
+          to: '/pages/timeline',
         },
         {
           icon: 'mdi-cash-multiple',
@@ -126,11 +108,6 @@
           icon: 'mdi-frequently-asked-questions',
           to: '/pages/faq',
         },
-        // {
-        //   title: 'icons',
-        //   icon: 'mdi-chart-bubble',
-        //   to: '/components/icons',
-        // },
         // {
         //   title: 'google',
         //   icon: 'mdi-map-marker',

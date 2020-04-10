@@ -19,9 +19,9 @@ export default new Router({
         },
         // Pages
         {
-          name: 'Grafik',
-          path: 'pages/grafik',
-          component: () => import('@/views/dashboard/pages/Grafik'),
+          name: 'Provinsi',
+          path: 'pages/provinsi',
+          component: () => import('@/views/dashboard/pages/Provinsi'),
         },
         {
           name: 'Donasi',
@@ -34,9 +34,9 @@ export default new Router({
           component: () => import('@/views/dashboard/pages/Faq'),
         },
         {
-          name: 'Typography',
-          path: 'components/typography',
-          component: () => import('@/views/dashboard/component/Typography'),
+          name: 'Timeline',
+          path: 'pages/Timeline',
+          component: () => import('@/views/dashboard/pages/Timeline'),
         },
         // Tables
         {

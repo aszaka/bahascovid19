@@ -7,7 +7,7 @@
 
     <v-row>
       <v-col
-        cols="12"
+        cols="4"
         md="4"
       >
         <v-card
@@ -22,10 +22,10 @@
             <v-card-title></v-card-title>
             </v-img>
 
-            <v-card-subtitle class="pb-0">10 April 2020</v-card-subtitle>
+            <v-card-subtitle class="pb-0"><small>10 April 2020</small></v-card-subtitle>
 
             <v-card-text class="text--primary">
-            <div>Aksi Cepat Tanggap</div>
+            <div><b>Aksi Cepat Tanggap</b></div>
             </v-card-text>
 
             <v-card-actions>
@@ -42,7 +42,7 @@
       </v-col>
 
       <v-col
-        cols="12"
+        cols="4"
         md="4"
       >
         <v-card
@@ -57,10 +57,10 @@
             <v-card-title></v-card-title>
             </v-img>
 
-            <v-card-subtitle class="pb-0">10 April 2020</v-card-subtitle>
+            <v-card-subtitle class="pb-0"><small>10 April 2020</small></v-card-subtitle>
 
             <v-card-text class="text--primary">
-            <div>Dompet Dhuafa</div>
+            <div><b>Dompet Dhuafa</b></div>
             </v-card-text>
 
             <v-card-actions>
@@ -77,7 +77,7 @@
       </v-col>
 
       <v-col
-        cols="12"
+        cols="4"
         md="4"
       >
         <v-card
@@ -92,10 +92,10 @@
             <v-card-title></v-card-title>
             </v-img>
 
-            <v-card-subtitle class="pb-0">10 April 2020</v-card-subtitle>
+            <v-card-subtitle class="pb-0"><small>10 April 2020</small></v-card-subtitle>
 
             <v-card-text class="text--primary">
-            <div>Rumah Zakat</div>
+            <div><b>Rumah Zakat</b></div>
             </v-card-text>
 
             <v-card-actions>
@@ -110,6 +110,40 @@
             </v-card-actions>
         </v-card>
       </v-col>
+
+      <v-col
+        cols="4"
+        md="4"
+      >
+        <v-card
+            class="mx-auto"
+            max-width="400"
+        >
+            <v-img
+            class="black--text align-end"
+            height="200px"
+            src="https://stamps.umich.edu/images/uploads/exhibitions/spaceavailable.jpg"
+            >
+            <v-card-title></v-card-title>
+            </v-img>
+
+            <v-card-text class="text--primary">
+            <div><b>Iklan Donasi</b></div>
+            </v-card-text>
+
+            <v-card-actions>
+            <v-btn
+                color="green"
+                default
+                class="v-btn--block"
+                @click="act = true"
+            >
+                Detail
+            </v-btn>
+            </v-card-actions>
+        </v-card>
+      </v-col>
+
     </v-row>
 
     <v-dialog
