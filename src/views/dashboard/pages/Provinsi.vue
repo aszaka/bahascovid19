@@ -24,12 +24,9 @@
             </v-card-title>
             <v-data-table
               :headers="headers"
-              :items="items"
+              :items="item"
               :search="search"
             />
-            <!-- <div v-for="prov in provinsi" :key="prov.FID">
-
-            </div> -->
           </v-card>
         </template>
       </v-col>

@@ -4,7 +4,6 @@
     fluid
     tag="section"
   >
-
     <v-row>
       <v-col>
         <v-timeline align-top>
@@ -80,9 +79,11 @@
             </v-card>
           </v-timeline-item>
         </v-timeline>
-        <v-divider light></v-divider>
-          <br>
-          <p align='right'><i>Sumber : <a href="https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Indonesia">https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Indonesia</a></i></p>
+        <v-divider light />
+        <br>
+        <p align="right">
+          <i>Sumber : <a href="https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Indonesia">https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Indonesia</a></i>
+        </p>
       </v-col>
     </v-row>
   </v-container>

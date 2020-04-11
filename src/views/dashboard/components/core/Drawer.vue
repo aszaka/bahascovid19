@@ -63,8 +63,7 @@
     <v-list
       expand
       nav
-    >
-    </v-list>
+    />
   </v-navigation-drawer>
 </template>
 
