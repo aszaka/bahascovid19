@@ -25,10 +25,10 @@
       nav
     >
       <v-list-item>
-          <v-img
-            src="https://i0.wp.com/www.nawadwipa.co.id/wp-content/uploads/2019/09/google-new-logo-if-futura-e1569392115313.png"
-            max-height="80"
-          />
+        <v-img
+          src="../../../../assets/bcv2.png"
+          max-height="50"
+        />
       </v-list-item>
     </v-list>
 
@@ -38,10 +38,6 @@
       expand
       nav
     >
-      <!-- Style cascading bug  -->
-      <!-- https://github.com/vuetifyjs/vuetify/pull/8574 -->
-      <div />
-
       <template v-for="(item, i) in computedItems">
         <base-item-group
           v-if="item.children"
@@ -61,6 +57,13 @@
       <!-- Style cascading bug  -->
       <!-- https://github.com/vuetifyjs/vuetify/pull/8574 -->
       <div />
+    </v-list>
+
+    <v-divider class="mb-2" />
+    <v-list
+      expand
+      nav
+    >
     </v-list>
   </v-navigation-drawer>
 </template>

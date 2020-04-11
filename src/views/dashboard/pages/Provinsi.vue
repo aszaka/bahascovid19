@@ -24,9 +24,12 @@
             </v-card-title>
             <v-data-table
               :headers="headers"
-              :items="desserts"
+              :items="items"
               :search="search"
             />
+            <!-- <div v-for="prov in provinsi" :key="prov.FID">
+
+            </div> -->
           </v-card>
         </template>
       </v-col>
@@ -35,7 +38,18 @@
 </template>
 
 <script>
+  import axios from 'axios'
   export default {
-    //
+    name: 'Provinsi',
+    data () {
+      return {
+        provinsi: {},
+      }
+    },
+    mounted () {
+      axios
+        .get('https://api.kawalcorona.com/indonesia/provinsi')
+        .then(({ provinsi }) => (this.provinsi = provinsi))
+    },
   }
 </script>

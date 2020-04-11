@@ -7,6 +7,7 @@
         align="center"
         no-gutters
       >
+        <div class="elfsight-app-62851169-26cd-434f-b23c-290d84206d5b"></div>
         <!-- <v-col
           v-for="(link, i) in links"
           :key="i"
