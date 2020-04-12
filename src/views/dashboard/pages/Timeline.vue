@@ -6,6 +6,15 @@
   >
     <v-row>
       <v-col>
+        <v-card>
+          <v-card-text>
+            <p align='justify'>Pada bagian ini diampilkan kronologi penyebaran virus mulai dari China hingga masuk ke Indonesia. Semoga dengan adanya kronologi ini masyarakat dapat semakin paham tentang sejarah dan perkembangan virus khususnya di Indonesia.</p>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
         <v-timeline align-top>
           <v-timeline-item
             v-for="(timeline, i) in timelines"

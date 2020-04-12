@@ -22,9 +22,17 @@
               Selamat Datang di website BahasCovid19
             </div>
           </template>
-          <h4 align="center">
-            <br> Website ini membahas segala sesuatu tentang virus Covid 19 atau yang lebih dikenal dengan corona.
-          </h4>
+          <p align="justify">
+            <br> Banyak dari masyarakat kita yang masih awam dan tidak tahu mengenai wabah yang tengah melanda dunia ini khususnya negara Indonesia. Padahal untuk mencegah penyebaran, salah satunya adalah dengan mengetahui tentang wabah itu sendiri dan berusaha untuk menjauhinya. Untuk itu dibuatlah website ini untuk memudahkan warga masyarakat mengakses informasi tentang wabah covid-19 ini. Selain informasi mengenai wabah, website ini juga berisi beberapa hal lain seperti :
+            <ol>
+              <li><b>Data <i>realtime</i> jumlah warga masyarakat yang terpapar virus</b><br>Data ini merupakan data nasional yang diupdate secara realtime sehingga masyarakat dapat mengetahui seberapa besar tingkat penyebaran virus ini di negara kita. Data mengacu pada website kawalcorona.com</li>
+              <li><b>Data <i>realtime</i> jumlah tiap daerah</b><br> Disini warga masyarakat dapat mengakses data tiap daerah sesuai dengan domisili atau tempat tinggalnya, data disajikan menggunakan tabel agar masyarakat dapat membaca data tersebut dengan mudah </li>
+              <li><b>Timeline atau kronologi penyebaran Covid-19</b><br> Pada bagian ini akan ditampilkan kronologi penyebaran Covid-19 mulai dari awal ketika virus ini muncul di China hingga update terakhir perkembangan virus di Indonesia. Dengan ditampilkan kronologi ini, diharapkan masyarakat dapat mengetahui sejarah dan peristiwa apa saja yang telah terjadi.</li>
+              <li><b>Informasi mengenai instansi yang menggalang donasi</b><br>Banyak sekali masyarakat dengan kelas ekonomi menengah kebawah serta para pekerja harian yang terdampak dengan adanya virus ini, untuk ini pada bagian ini kami mengumpulkan beberapa informasi instansi yang menggalang bantuan donasi baik untuk tenaga medis maupun warga masyarakat.</li>
+              <li><b><i>Frequently Asked Question</i></b><br>Banyaknya pertanyaan dari masyarakat dengan pola pertanyaan yang sama membuat kami berinisiatif untuk menampilkan beberapa pertanyaan yang sering diajukan oleh masyarakat serta menampilkan jawaban yang relevan. Data ini kami ambil langsung dari website WHO.</li>
+              <li><b>Chatbot layanan masyarakat</b>. Chatbot ini adalah chatbot resmi dari pemerintah, sehingga segala informasi yang disampaikan di chatbot tersebut adalah informasi yang resmi berasal dari pemerintah.</li>
+            </ol>
+          </p>
         </base-material-card>
       </v-col>
 
@@ -63,8 +71,7 @@
           icon="mdi-emoticon-cry-outline"
           title="Positif"
           :value=positif
-          sub-icon="mdi-tag"
-          sub-text="Tracked from Google Analytics"
+          sub-text="Sumber : api.kawalcorona.com"
         />
       </v-col>
 
@@ -92,9 +99,7 @@
           icon="mdi-emoticon-dead-outline"
           title="Meninggal Dunia"
           :value=meninggal
-          sub-icon="mdi-alert"
-          sub-icon-color="red"
-          sub-text="Get More Space..."
+          sub-text="Sumber : api.kawalcorona.com"
         />
       </v-col>
     </v-row>

@@ -23,36 +23,15 @@
             by <a href="https://www.zaka.my.id">Abdurrahman Shalahudin Zaka</a>.
           </div>
         </v-col>
+        <v-spacer class="hidden-sm-and-down" />
       </v-row>
     </v-container>
   </v-footer>
 </template>
 
 <script>
-  // import elfsight from '../../../../elfsight'
   export default {
     name: 'DashboardCoreFooter',
-
-    data: () => ({
-      links: [
-        {
-          href: '#',
-          text: 'Creative Tim',
-        },
-        {
-          href: '#',
-          text: 'About Us',
-        },
-        {
-          href: '#',
-          text: 'Blog',
-        },
-        {
-          href: '#',
-          text: 'Licenses',
-        },
-      ],
-    }),
   }
 </script>
 

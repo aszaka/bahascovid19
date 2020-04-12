@@ -64,6 +64,10 @@
       expand
       nav
     />
+    <div
+      id="9c7d7644_1586619075"
+      class="powr-hit-counter"
+    />
   </v-navigation-drawer>
 </template>
 
@@ -93,22 +97,22 @@
         {
           title: 'Data Provinsi',
           icon: 'mdi-table',
-          to: '/pages/provinsi',
+          to: '/provinsi',
         },
         {
           title: 'Timeline',
           icon: 'mdi-timeline',
-          to: '/pages/timeline',
+          to: '/timeline',
         },
         {
           icon: 'mdi-cash-multiple',
           title: 'Donasi',
-          to: '/pages/donasi',
+          to: '/donasi',
         },
         {
           title: 'FAQ',
           icon: 'mdi-frequently-asked-questions',
-          to: '/pages/faq',
+          to: '/faq',
         },
         // {
         //   title: 'google',

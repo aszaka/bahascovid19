@@ -7,6 +7,12 @@
     <v-card>
       <v-card-text class="pt-0">
         <v-row>
+          <v-col>
+            <p align='justify'>Halaman ini berisi tentang beberapa pertanyaan yang sering diajukan oleh masyarakat. Data ini bersumber langsung dari website resmi WHO, sehingga semua jawaban yang ada pada website ini dapat dipertanggungjawabkan kebenarannya.</p>
+          </v-col>
+        </v-row>
+
+        <v-row>
           <v-col
             cols="12"
             md="12"

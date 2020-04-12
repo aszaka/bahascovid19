@@ -5,6 +5,18 @@
     tag="section"
   >
     <v-row>
+      <v-col>
+        <v-card>
+          <v-card-text>
+            <p align="justify">
+              Dibawah ini adalah beberapa instansi yang melakukan penggalangan donasi untuk membantu saudara-saudara kita yang terdampak karena virus Covid19, mulai dari tenaga medis hingga masyarakat dengan kelas ekonomi menengah kebawah. Mari kita bantu mereka dengan menyalurkan sedikit rezeki kita melalui salah satu instansi dibawah ini. Berapapun bantuan yang kita berikan sangat berarti bagi mereka yang membutuhkan. Bagi pihak-pihak atau instansi yang ingin menggunakan media ini untuk penyebarluasan informasi donasi dapat melihat detailnya pada bagian <b>Iklan Donasi</b>.
+            </p>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+
+    <v-row>
       <v-col
         cols="12"
         sm="6"
@@ -413,27 +425,24 @@
       v-model="space"
       max-width="600"
     >
-      <v-card class="text-center">
+      <v-card class="text-left">
         <v-img
           class="black--text align-end"
           src="https://stamps.umich.edu/images/uploads/exhibitions/spaceavailable.jpg"
         />
         <v-card-text>
-          Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+          <h2>Iklan Donasi (Gratis)</h2>
+          <br>
+          <p align='justify'>Bagi instansi ataupun pihak yang ingin memasang informasi pengenai penggalangan donasi dapat menyiapkan beberapa bahan berikut:</p>
+          <ol>
+            <li>Gambar logo perusahaan <br> (rasio 4:3, minimal ukuran 400px * 300px)</li>
+            <li>Gambar pamflet donasi <br> (minimal ukuran 500px * 500px)</li>
+            <li>Deskripsi donasi <br> (Latar belakang donasi, tujuan donasi, cara penyaluran donasi, dll)</li>
+            <li>Link menuju ke alamat asli <br> (jika tidak ada link, pastikan deskripsi jelas mengenai kontak yang dapat dihubungi, alamat rekening penyaluran donasi, penanggung jawab donasi)</li>
+          </ol>
+          <br>
+          <p align='justify'>Semua berkas dikirimkan ke email <b>aszzaka@gmail.com</b> dengan subject "<b>Iklan Donasi BahasCovid19</b>". Semoga semua amal kebaikan kita semua mendapat balasan yang setimpal. Dan semoga wabah ini segera berakhir.</p>
         </v-card-text>
-
-        <v-card-actions>
-          <v-spacer />
-
-          <v-btn
-            class="v-btn--block"
-            color="success"
-            href="http://bangunmasjid.com/beras-untuk-pemakmur-masjid/"
-            target="_blank"
-          >
-            Go To Page
-          </v-btn>
-        </v-card-actions>
       </v-card>
     </v-dialog>
   </v-container>
